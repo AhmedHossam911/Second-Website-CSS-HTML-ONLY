@@ -1,0 +1,118 @@
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+
+    .fas.fa-bars.toggle-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    header nav ul {
+        display: none;
+    }
+
+    header nav .toggle-menu:hover+ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgb(0 0 0 / 50%);
+    }
+
+    header nav ul li a {
+        padding: 15px !important;
+    }
+
+    .landing .text {
+        width: 100%;
+    }
+
+    .landing .text .content {
+        max-width: 100%;
+    }
+
+    .landing .change-background {
+        display: none;
+    }
+
+    .Services-container {
+        display: block;
+        text-align: center;
+    }
+
+    .ServicesCard {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .desgin .text {
+        width: 100%
+    }
+
+    .desgin .image {
+        display: none;
+    }
+
+    .form-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .video {
+        margin-top: 100px;
+    }
+
+    .Img-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .Img-container .Img-card {
+        width: 100%;
+    }
+
+    .more {
+        margin-bottom: 0;
+    }
+
+    .stats .container {
+        flex-direction: column;
+        width: 75%;
+    }
+
+    .type-List {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .type-List li {
+        margin-top: 20px;
+    }
+
+
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
